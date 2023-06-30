@@ -1,0 +1,81 @@
+.inputAdd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top:-30px ;
+    left: 352px;
+    
+}
+
+.inputAdd input {
+    width: 800px;
+    height: 54px; 
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--gray-700);
+    background: var(--gray-500); 
+    transition: 0.2s;   
+}
+
+.inputAdd input:hover {
+    cursor: pointer;
+    background: var(--gray-400);
+    box-shadow: 0 0 0 1px var(--purple-dark);
+}
+
+.inputAdd button {
+    width: 90px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+    font-family: 'Inter';
+    color: var(--gray-100);
+    font-weight: 700;
+    font-size: 0.875rem;
+    background-color: var(--blue-dark);
+    border-radius: 8px;
+    border: 1px solid var(--gray-700);
+    transition: 0.2s;
+}
+
+.inputAdd button[type=submit]:not(:disabled):hover {
+    cursor: pointer;
+    background: var(--blue);
+}
+
+.inputAdd button[type=submit]:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.done {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin:auto;
+    margin-top: 24px;
+    padding: 64px 24px;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 5px;
+    
+}
+
+.done svg {
+    width: 56px;
+    height: 56px;
+    fill: var(--gray-400);
+}
+
+.lineA {
+    color: var(--gray-300);    
+    font-weight: 700;    
+}
+
+.lineB {
+    color: var(--gray-300);  
+}

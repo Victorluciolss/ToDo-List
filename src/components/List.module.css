@@ -1,0 +1,50 @@
+.list {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 65px;
+}
+
+.inf {
+   display:flex;
+   gap: 625px;
+   font-weight: 700;
+}
+
+.created {
+   display: flex;
+}
+
+.created p {
+   font-size: 14px;
+   color: var(--blue);
+}
+
+.created span {
+   background: var(--gray-400);
+   border-radius: 999px;
+   color: var(--gray-200);
+   font-size: 12px;
+   margin-left: 8px;
+   padding: 2px 8px;
+}
+
+.done {
+   display: flex;
+}
+
+.done p {
+   font-size: 14px;
+   color: var(--purple-dark);
+}
+
+.done span {
+   background: var(--gray-400);
+   border-radius: 999px;
+   color: var(--gray-200);
+   font-size: 12px;
+   margin-left: 8px;
+   padding: 2px 8px;
+}
+
+
